@@ -1,0 +1,91 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-main: #ffffff;        /* Blanc pur */
+  --bg-sidebar: #ffffff;
+  --text-primary: #1e293b;
+  --border-color: #e2e8f0;   /* Bordure plus discrète */
+  --bg-badge: #f1f5f9;   /* Fond clair (slate-100) */
+  --text-badge: #94a3b8; /* Texte gris (slate-400) */
+  --bg-search: #f1f5f9;    /* Fond clair (slate-100) */
+  --text-search: #0f172a;  /* Texte sombre (slate-900) */
+  --bg-analysis-panel: #ffffff;
+  --bg-analysis-header: #065f46; /* Vert profond en Light Mode */
+  --text-analysis-body: #334155;
+  --text-analysis-title: #065f46;
+  --border-analysis: #e2e8f0;
+  --bg-surah-hover: #10b981; /* Vert vif pour le mode clair */
+}
+
+.dark {
+  --bg-main: #020617;
+  --bg-sidebar: #0f172a;
+  --text-primary: #f1f5f9;
+  --border-color: #1e293b;
+  --bg-badge: #1e293b;   /* Fond sombre (slate-800) */
+  --text-badge: #64748b; /* Texte plus sombre (slate-500) */
+  --bg-search: #1e293b;    /* Fond sombre (slate-800) */
+  --text-search: #f8fafc;  /* Texte clair (slate-50) */
+  --bg-analysis-panel: #0f172a;
+  --bg-analysis-header: #020617; /* Presque noir en Dark Mode */
+  --text-analysis-body: #cbd5e1;
+  --text-analysis-title: #34d399; /* Émeraude clair pour les titres */
+  --border-analysis: #1e293b;
+  --bg-surah-hover: #065f46; /* Le même vert émeraude que le header */
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Suppression des points (bg-dots) */
+.bg-dots {
+  background-image: none !important;
+}
+
+.reading-area .font-arabic { 
+  font-size: calc(var(--main-font-size) * 1.8) !important; 
+  line-height: 2.5 !important;
+  color: #1e293b; /* Couleur très sombre pour le contraste */
+}
+
+.dark .reading-area .font-arabic { 
+  font-size: calc(var(--main-font-size) * 1.8) !important; 
+  line-height: 2.5 !important;
+  color: #ffffff;
+}
+
+.dir-rtl { direction: rtl; }
+
+.badge-verset {
+  background-color: var(--bg-badge);
+  color: var(--text-badge);
+  transition: all 0.3s ease;
+}
+
+.search-bar-input {
+  background-color: var(--bg-search) !important;
+  color: var(--text-search) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Classes utilitaires pour le panel */
+.panel-container { background-color: var(--bg-analysis-panel) !important; border-left: 1px solid var(--border-analysis) !important; }
+.panel-header { background-color: var(--bg-analysis-header) !important; }
+.panel-content { background-color: var(--bg-analysis-panel) !important; }
+.panel-body-text { color: var(--text-analysis-body) !important; }
+.panel-title-text { color: var(--text-analysis-title) !important; border-bottom: 1px solid var(--border-analysis) !important; }
+
+.surah-hover-effect:hover {
+  background-color: var(--bg-surah-hover) !important;
+}
+
+.surah-hover-effect:hover *, 
+.surah-hover-effect:hover span, 
+.surah-hover-effect:hover div {
+  color: #ffffff !important; /* Texte blanc pour garantir la lisibilité sur le vert */
+}

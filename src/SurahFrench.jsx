@@ -1,0 +1,26 @@
+// SurahNamesFR.jsx
+export const surahNamesFr = {
+  1: "L'Ouverture", 2: "La Vache", 3: "La Famille d'Imran", 4: "Les Femmes", 5: "La Table Servie",
+  6: "Les Bestiaux", 7: "Al-Araf", 8: "Le Butin", 9: "Le Repentir", 10: "Jonas",
+  11: "Houd", 12: "Joseph", 13: "Le Tonnerre", 14: "Abraham", 15: "Al-Hijr",
+  16: "Les Abeilles", 17: "Le Voyage Nocturne", 18: "La Caverne", 19: "Marie", 20: "Ta-Ha",
+  21: "Les Prophètes", 22: "Le Pèlerinage", 23: "Les Croyants", 24: "La Lumière", 25: "Le Discernement",
+  26: "Les Poètes", 27: "Les Fourmis", 28: "Le Récit", 29: "L'Araignée", 30: "Les Romains",
+  31: "Lokman", 32: "La Prosternation", 33: "Les Coalisés", 34: "Saba", 35: "Le Créateur",
+  36: "Ya-Sin", 37: "Les Rangés", 38: "Sad", 39: "Les Groupes", 40: "Le Pardonneur",
+  41: "Les Versets Détaillés", 42: "La Consultation", 43: "L'Ornement", 44: "La Fumée", 45: "L'Agénouillée",
+  46: "Al-Ahqaf", 47: "Muhammad", 48: "La Victoire Éclatante", 49: "Les Appartements", 50: "Qaf",
+  51: "Qui éparpillent", 52: "At-Tur", 53: "L'Étoile", 54: "La Lune", 55: "Le Tout Miséricordieux",
+  56: "L'Événement", 57: "Le Fer", 58: "La Discussion", 59: "L'Exode", 60: "L'Éprouvée",
+  61: "Le Rang", 62: "Le Vendredi", 63: "Les Hypocrites", 64: "La Grande Perte", 65: "Le Divorce",
+  66: "L'Interdiction", 67: "La Royauté", 68: "La Plume", 69: "Celle qui montre la vérité", 70: "Les Voies d'Ascension",
+  71: "Noé", 72: "Les Djinns", 73: "L'Enveloppé", 74: "Le Revêtu d'un manteau", 75: "La Résurrection",
+  76: "L'Homme", 77: "Les Envoyés", 78: "La Nouvelle", 79: "Les Anges qui arrachent les âmes", 80: "Il s'est renfrogné",
+  81: "L'Obscurcissement", 82: "La Rupture", 83: "Les Fraudeurs", 84: "La Déchirure", 85: "Les Constellations",
+  86: "L'Astre Nocturne", 87: "Le Très-Haut", 88: "L'Enveloppante", 89: "L'Aube", 90: "La Cité",
+  91: "Le Soleil", 92: "La Nuit", 93: "Le Jour Montant", 94: "L'Ouverture du Cœur", 95: "Le Figuier",
+  96: "L'Adhérence", 97: "La Destinée", 98: "La Preuve Éclatante", 99: "Le Tremblement de Terre", 100: "Les Coursiers Rapides",
+  101: "Le Fracas", 102: "La Course aux richesses", 103: "Le Temps", 104: "Les Calomniateurs", 105: "L'Éléphant",
+  106: "Coraïsh", 107: "L'Ustensile", 108: "L'Abondance", 109: "Les Infidèles", 110: "Le Secours",
+  111: "Les Fibres", 112: "Le Monothéisme Pur", 113: "L'Aube Naissante", 114: "Les Hommes"
+};

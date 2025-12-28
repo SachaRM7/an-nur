@@ -1,0 +1,6 @@
+/* @css-validator disable */
+@import "tailwindcss";
+
+@theme {
+  --variant-dark: .dark &;
+}
