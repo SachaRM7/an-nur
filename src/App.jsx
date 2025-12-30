@@ -336,7 +336,6 @@ export default function App() {
     setIsFromCache(false);
     const analysisId = `analysis_s${currentSurah.number}_v${verse.numberInSurah}`;
     const analysisRef = doc(db, 'cached_analyses', analysisId);
-    const apiKey = "AIzaSyDBY8d8uPfcHDLDEHL-cfPBstqOEdg28Vk";
     try {
       const cachedDoc = await getDoc(analysisRef);
       if (cachedDoc.exists()) {
